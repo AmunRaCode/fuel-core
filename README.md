@@ -108,7 +108,7 @@ $ ./target/debug/fuel-core run --poa-instant=false
 
 We use [`publish-crates`](https://github.com/katyo/publish-crates) action for automatic publishing of all crates.
 
-If you have problems with publishing, you can troubleshoot it locally with [`act`](https://github.com/nektos/act).
+If you have problems with publishing, you can perform local troubleshooting using [`act`](https://github.com/nektos/act).
 
 ```shell
 act release -s GITHUB_TOKEN=<YOUR_GITHUB_TOKEN> -j publish-crates-check --container-architecture linux/amd64 --reuse
