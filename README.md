@@ -114,7 +114,7 @@ If you have problems with publishing, you can perform local troubleshooting usin
 act release -s GITHUB_TOKEN=<YOUR_GITHUB_TOKEN> -j publish-crates-check --container-architecture linux/amd64 --reuse
 ```
 
-It requires GitHubToken to do request to the GitHub. You can create it 
+It requires a GitHub Token to make requests to GitHub. You can create it 
 with [this](https://docs.github.com/en/enterprise-server@3.4/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token) instruction.
 
 #### Outdated database
