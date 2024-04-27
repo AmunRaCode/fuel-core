@@ -1,6 +1,6 @@
 # TxPool
 
-It contain list of transaction sorted by GasPrice, prepared to be included into new block. So when talking about gas it is important to make distinction between:
+It contains a list of transactions sorted by GasPrice, prepared to be included into new block. So when talking about gas it is important to make distinction between:
 
 * GasPrice or just Price: represents amount that transaction is going to pay for unit of GasSpend
 * GasSpend or just Gas: is amount of how much vm worked to execute this transaction.
